@@ -60,8 +60,8 @@ class Grid2D_TX:
 		elif dtype == "complex":
 			X = self.X
 		elif dtype is not ("real" or "complex"):
-			raise "dtype of returned arrays is not understood.\
-				   Please specify 'comlex/real'"
+			raise "dtype of returned arrays is not understood.\ 
+				   Please specify 'comlex/real'" 
 		return X, self.dx, self.T, self.dt
 
 
